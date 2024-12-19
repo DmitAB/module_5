@@ -3,7 +3,6 @@ class House:
         self.name = name
         self.number_of_floors = number_of_floors
 
-
     def __len__(self):
         return self.number_of_floors
 
