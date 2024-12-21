@@ -29,7 +29,7 @@ class House:
 
     def __add__(self, value):
         self.number_of_floors = self.number_of_floors + value
-        return self #f'Название: {self.name}, кол-во этажей: {self.number_of_floors}'
+        return self 
 
     def __radd__(self, value):
         self.number_of_floors = self.number_of_floors + value
