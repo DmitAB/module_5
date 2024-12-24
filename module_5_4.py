@@ -10,13 +10,8 @@ class House:
         self.name = name
         self.number_of_floors = number_of_floors
 
-
     def __del__(self):
         print(f"{self.name} снесён, но он останется в истории")
-
-
-
-
 
 
 h1 = House('ЖК Эльбрус', 10)
